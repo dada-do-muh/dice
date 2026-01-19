@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="generator" content="Docusaurus v3.9.2">
 <title data-rh="true">ハイライト操作 | てすとDice ヘルプ</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://dada-do-muh.github.io/dice/help/en/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://dada-do-muh.github.io/dice/help/en/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://dada-do-muh.github.io/dice/help/en/analysis/highlight"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" property="og:locale:alternate" content="ja"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="ハイライト操作 | てすとDice ヘルプ"><meta data-rh="true" name="description" content="フィルタ条件に一致する行やセルを色付けして目立たせる機能です。特定の出目や条件に注目したいときに便利です。"><meta data-rh="true" property="og:description" content="フィルタ条件に一致する行やセルを色付けして目立たせる機能です。特定の出目や条件に注目したいときに便利です。"><link data-rh="true" rel="icon" href="/dice/help/en/img/favicon.webp"><link data-rh="true" rel="canonical" href="https://dada-do-muh.github.io/dice/help/en/analysis/highlight"><link data-rh="true" rel="alternate" href="https://dada-do-muh.github.io/dice/help/analysis/highlight" hreflang="ja"><link data-rh="true" rel="alternate" href="https://dada-do-muh.github.io/dice/help/en/analysis/highlight" hreflang="en"><link data-rh="true" rel="alternate" href="https://dada-do-muh.github.io/dice/help/analysis/highlight" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"ハイライト操作","item":"https://dada-do-muh.github.io/dice/help/en/analysis/highlight"}]}</script><link rel="stylesheet" href="/dice/help/en/assets/css/styles.5aaef715.css">
-<script src="/dice/help/en/assets/js/runtime~main.1d530787.js" defer="defer"></script>
+<script src="/dice/help/en/assets/js/runtime~main.fe960a58.js" defer="defer"></script>
 <script src="/dice/help/en/assets/js/main.55a02116.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -38,8 +38,20 @@
 </li>
 </ol>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="対象列">対象列<a href="#対象列" class="hash-link" aria-label="Direct link to 対象列" title="Direct link to 対象列" translate="no">​</a></h2>
-<p>ハイライトを適用する列を選択できます。</p>
-<table><thead><tr><th>選択肢</th><th>説明</th></tr></thead><tbody><tr><td>すべて</td><td>全ての列（合計値＋個別ダイス）に適用</td></tr><tr><td>合計値</td><td>合計値の列のみに適用</td></tr><tr><td>ダイス1, ダイス2...</td><td>特定のダイスの出目列のみに適用</td></tr></tbody></table>
+<p>ハイライトを適用する列を複数選択できます。チェックボックス形式で任意の列を組み合わせて指定可能です。</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="選択可能な列">選択可能な列<a href="#選択可能な列" class="hash-link" aria-label="Direct link to 選択可能な列" title="Direct link to 選択可能な列" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>合計値</strong>: 合計値の列</li>
+<li class=""><strong>ダイス1, ダイス2...</strong>: 各ダイスの出目列</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="複数列の選択">複数列の選択<a href="#複数列の選択" class="hash-link" aria-label="Direct link to 複数列の選択" title="Direct link to 複数列の選択" translate="no">​</a></h3>
+<p>対象列のドロップダウンをクリックすると、チェックボックス付きのリストが表示されます。</p>
+<ul>
+<li class="">個別にチェック/チェック解除が可能</li>
+<li class="">「すべて選択」ボタンで全列を一括選択</li>
+<li class="">「すべて解除」ボタンで全選択を一括解除</li>
+</ul>
+<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>柔軟な列選択</div><div class="admonitionContent_BuS1"><p>例えば「合計値とダイス1だけ」「ダイス2とダイス3だけ」など、必要な列だけを自由に組み合わせられます。</p></div></div>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="条件の書式">条件の書式<a href="#条件の書式" class="hash-link" aria-label="Direct link to 条件の書式" title="Direct link to 条件の書式" translate="no">​</a></h2>
 <p>ハイライト条件は柔軟な書式で指定できます。</p>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="単一の値">単一の値<a href="#単一の値" class="hash-link" aria-label="Direct link to 単一の値" title="Direct link to 単一の値" translate="no">​</a></h3>
@@ -81,31 +93,56 @@
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="条件の削除">条件の削除<a href="#条件の削除" class="hash-link" aria-label="Direct link to 条件の削除" title="Direct link to 条件の削除" translate="no">​</a></h3>
 <p>各条件行の右側にある「×」ボタンをクリックすると、その条件が削除されます。</p>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="条件の並べ替え">条件の並べ替え<a href="#条件の並べ替え" class="hash-link" aria-label="Direct link to 条件の並べ替え" title="Direct link to 条件の並べ替え" translate="no">​</a></h3>
-<p>左側のドラッグハンドル（⋮⋮）をドラッグして、条件の順序を変更できます。
-複数の条件が同じセルに該当する場合、リストの上にある条件が優先されます。</p>
+<p>左側のドラッグハンドル（⋮⋮）をドラッグして、条件の順序を変更できます。</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="条件の優先順位">条件の優先順位<a href="#条件の優先順位" class="hash-link" aria-label="Direct link to 条件の優先順位" title="Direct link to 条件の優先順位" translate="no">​</a></h2>
+<p>同じセルに対して複数のハイライト条件が該当する場合、<strong>リストの上にある条件が優先</strong>されます。</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="優先順位の仕組み">優先順位の仕組み<a href="#優先順位の仕組み" class="hash-link" aria-label="Direct link to 優先順位の仕組み" title="Direct link to 優先順位の仕組み" translate="no">​</a></h3>
+<ul>
+<li class="">ハイライト条件は上から順に評価されます</li>
+<li class="">最初に一致した条件の色が適用されます</li>
+<li class="">それ以降の条件は無視されます</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="活用例">活用例<a href="#活用例" class="hash-link" aria-label="Direct link to 活用例" title="Direct link to 活用例" translate="no">​</a></h3>
+<p>以下のような条件を設定した場合：</p>
+<ol>
+<li class="">条件1: 対象「合計値」、条件「20」、色「赤」</li>
+<li class="">条件2: 対象「合計値」、条件「15-20」、色「黄色」</li>
+</ol>
+<p>合計値が20のセルは：</p>
+<ul>
+<li class="">条件1と条件2の両方に一致</li>
+<li class="">上位の条件1が優先され、<strong>赤色</strong>でハイライトされます</li>
+<li class="">条件2の黄色は適用されません</li>
+</ul>
+<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>優先順位の設定のコツ</div><div class="admonitionContent_BuS1"><p>より具体的な条件（特定の値など）を上に、より広範な条件（範囲指定など）を下に配置すると効果的です。</p></div></div>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="ハイライトのみ表示">ハイライトのみ表示<a href="#ハイライトのみ表示" class="hash-link" aria-label="Direct link to ハイライトのみ表示" title="Direct link to ハイライトのみ表示" translate="no">​</a></h2>
 <p>フィルターセット編集画面で「ハイライトのみ表示」オプションを有効にすると、ハイライト条件に一致する行だけが表示されます。</p>
 <p>これにより、注目したい結果だけを素早く確認できます。</p>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="使用例">使用例<a href="#使用例" class="hash-link" aria-label="Direct link to 使用例" title="Direct link to 使用例" translate="no">​</a></h2>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="例1-クリティカルファンブルの強調">例1: クリティカル・ファンブルの強調<a href="#例1-クリティカルファンブルの強調" class="hash-link" aria-label="Direct link to 例1: クリティカル・ファンブルの強調" title="Direct link to 例1: クリティカル・ファンブルの強調" translate="no">​</a></h3>
-<p>TRPGでのクリティカル（最大値）とファンブル（最小値）を強調表示：</p>
+<p>TRPGでのクリティカル（最大値）とファンブル（最小値）を全列で強調表示：</p>
 <ol>
-<li class="">条件1: 対象「すべて」、条件「max」、色「緑」</li>
-<li class="">条件2: 対象「すべて」、条件「min」、色「赤」</li>
+<li class="">条件1: 対象「すべて選択」、条件「max」、色「緑」</li>
+<li class="">条件2: 対象「すべて選択」、条件「min」、色「赤」</li>
 </ol>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="例2-高い出目の確認">例2: 高い出目の確認<a href="#例2-高い出目の確認" class="hash-link" aria-label="Direct link to 例2: 高い出目の確認" title="Direct link to 例2: 高い出目の確認" translate="no">​</a></h3>
 <p>合計値が一定以上の結果を確認：</p>
 <ol>
-<li class="">条件: 対象「合計値」、条件「15-20」、色「青」</li>
+<li class="">条件: 対象「合計値」のみ、条件「15-20」、色「青」</li>
 </ol>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="例3-特定ダイスのゾロ目チェック">例3: 特定ダイスのゾロ目チェック<a href="#例3-特定ダイスのゾロ目チェック" class="hash-link" aria-label="Direct link to 例3: 特定ダイスのゾロ目チェック" title="Direct link to 例3: 特定ダイスのゾロ目チェック" translate="no">​</a></h3>
-<p>6面ダイス2個で、1個目が6の場合を確認：</p>
+<p>6面ダイス2個で、1個目と2個目がともに6の場合を確認：</p>
 <ol>
-<li class="">条件: 対象「ダイス1」、条件「6」、色「オレンジ」</li>
+<li class="">条件: 対象「ダイス1」と「ダイス2」を選択、条件「6」、色「オレンジ」</li>
+</ol>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="例4-合計値と特定ダイスの組み合わせ">例4: 合計値と特定ダイスの組み合わせ<a href="#例4-合計値と特定ダイスの組み合わせ" class="hash-link" aria-label="Direct link to 例4: 合計値と特定ダイスの組み合わせ" title="Direct link to 例4: 合計値と特定ダイスの組み合わせ" translate="no">​</a></h3>
+<p>合計値が高く、かつ特定のダイスも確認したい場合：</p>
+<ol>
+<li class="">条件: 対象「合計値」と「ダイス1」を選択、条件「18-20」、色「紫」</li>
 </ol>
 <div class="theme-admonition theme-admonition-note admonition_xJq3 alert alert--secondary"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>フィルター条件との違い</div><div class="admonitionContent_BuS1"><ul>
 <li class=""><strong>フィルター条件</strong>: 条件に一致しない行を非表示にする</li>
 <li class=""><strong>ハイライト条件</strong>: 条件に一致する行を色付けするが、全行を表示する</li>
-</ul><p>両方を組み合わせて使うことも可能です。</p></div></div></div></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/dice/help/en/analysis/filters"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Filter Operations</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/dice/help/en/analysis/sheet-analysis"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Sheet Analysis</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#ハイライトの設定" class="table-of-contents__link toc-highlight">ハイライトの設定</a><ul><li><a href="#設定画面へのアクセス" class="table-of-contents__link toc-highlight">設定画面へのアクセス</a></li><li><a href="#ハイライト条件の追加" class="table-of-contents__link toc-highlight">ハイライト条件の追加</a></li></ul></li><li><a href="#対象列" class="table-of-contents__link toc-highlight">対象列</a></li><li><a href="#条件の書式" class="table-of-contents__link toc-highlight">条件の書式</a><ul><li><a href="#単一の値" class="table-of-contents__link toc-highlight">単一の値</a></li><li><a href="#範囲指定" class="table-of-contents__link toc-highlight">範囲指定</a></li><li><a href="#倍数指定" class="table-of-contents__link toc-highlight">倍数指定</a></li><li><a href="#特殊キーワード" class="table-of-contents__link toc-highlight">特殊キーワード</a></li><li><a href="#複数条件カンマ区切り" class="table-of-contents__link toc-highlight">複数条件（カンマ区切り）</a></li></ul></li><li><a href="#ハイライトの色" class="table-of-contents__link toc-highlight">ハイライトの色</a></li><li><a href="#複数のハイライト条件" class="table-of-contents__link toc-highlight">複数のハイライト条件</a><ul><li><a href="#条件の追加" class="table-of-contents__link toc-highlight">条件の追加</a></li><li><a href="#条件の削除" class="table-of-contents__link toc-highlight">条件の削除</a></li><li><a href="#条件の並べ替え" class="table-of-contents__link toc-highlight">条件の並べ替え</a></li></ul></li><li><a href="#ハイライトのみ表示" class="table-of-contents__link toc-highlight">ハイライトのみ表示</a></li><li><a href="#使用例" class="table-of-contents__link toc-highlight">使用例</a><ul><li><a href="#例1-クリティカルファンブルの強調" class="table-of-contents__link toc-highlight">例1: クリティカル・ファンブルの強調</a></li><li><a href="#例2-高い出目の確認" class="table-of-contents__link toc-highlight">例2: 高い出目の確認</a></li><li><a href="#例3-特定ダイスのゾロ目チェック" class="table-of-contents__link toc-highlight">例3: 特定ダイスのゾロ目チェック</a></li></ul></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2026 Dice Simulator.</div></div></div></footer></div>
+</ul><p>両方を組み合わせて使うことも可能です。</p></div></div></div></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/dice/help/en/analysis/filters"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Filter Operations</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/dice/help/en/analysis/sheet-analysis"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Sheet Analysis</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#ハイライトの設定" class="table-of-contents__link toc-highlight">ハイライトの設定</a><ul><li><a href="#設定画面へのアクセス" class="table-of-contents__link toc-highlight">設定画面へのアクセス</a></li><li><a href="#ハイライト条件の追加" class="table-of-contents__link toc-highlight">ハイライト条件の追加</a></li></ul></li><li><a href="#対象列" class="table-of-contents__link toc-highlight">対象列</a><ul><li><a href="#選択可能な列" class="table-of-contents__link toc-highlight">選択可能な列</a></li><li><a href="#複数列の選択" class="table-of-contents__link toc-highlight">複数列の選択</a></li></ul></li><li><a href="#条件の書式" class="table-of-contents__link toc-highlight">条件の書式</a><ul><li><a href="#単一の値" class="table-of-contents__link toc-highlight">単一の値</a></li><li><a href="#範囲指定" class="table-of-contents__link toc-highlight">範囲指定</a></li><li><a href="#倍数指定" class="table-of-contents__link toc-highlight">倍数指定</a></li><li><a href="#特殊キーワード" class="table-of-contents__link toc-highlight">特殊キーワード</a></li><li><a href="#複数条件カンマ区切り" class="table-of-contents__link toc-highlight">複数条件（カンマ区切り）</a></li></ul></li><li><a href="#ハイライトの色" class="table-of-contents__link toc-highlight">ハイライトの色</a></li><li><a href="#複数のハイライト条件" class="table-of-contents__link toc-highlight">複数のハイライト条件</a><ul><li><a href="#条件の追加" class="table-of-contents__link toc-highlight">条件の追加</a></li><li><a href="#条件の削除" class="table-of-contents__link toc-highlight">条件の削除</a></li><li><a href="#条件の並べ替え" class="table-of-contents__link toc-highlight">条件の並べ替え</a></li></ul></li><li><a href="#条件の優先順位" class="table-of-contents__link toc-highlight">条件の優先順位</a><ul><li><a href="#優先順位の仕組み" class="table-of-contents__link toc-highlight">優先順位の仕組み</a></li><li><a href="#活用例" class="table-of-contents__link toc-highlight">活用例</a></li></ul></li><li><a href="#ハイライトのみ表示" class="table-of-contents__link toc-highlight">ハイライトのみ表示</a></li><li><a href="#使用例" class="table-of-contents__link toc-highlight">使用例</a><ul><li><a href="#例1-クリティカルファンブルの強調" class="table-of-contents__link toc-highlight">例1: クリティカル・ファンブルの強調</a></li><li><a href="#例2-高い出目の確認" class="table-of-contents__link toc-highlight">例2: 高い出目の確認</a></li><li><a href="#例3-特定ダイスのゾロ目チェック" class="table-of-contents__link toc-highlight">例3: 特定ダイスのゾロ目チェック</a></li><li><a href="#例4-合計値と特定ダイスの組み合わせ" class="table-of-contents__link toc-highlight">例4: 合計値と特定ダイスの組み合わせ</a></li></ul></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2026 Dice Simulator.</div></div></div></footer></div>
 </body>
 </html>
